@@ -1,0 +1,20 @@
+#ignore not need files and folders for dockerization
+.serverless
+sql
+test
+./serverless.yaml
+#auto created when run command npm install
+node_modules
+#auto created when run command npm run build
+dist
+.dockerignore
+#dont put to container secrets and dev dependecies and docs
+.env
+.eslintrc.js
+.gitignore
+.prettierrc
+.idea
+README.md
+#dont put to container test files
+src/*/*.spec.ts
+src/*.spec.ts
